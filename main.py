@@ -3,7 +3,7 @@ from mysite.api import users, hotel, review, city, room_image, room, hotel_image
 import uvicorn
 from mysite.admin.setup import setup_admin
 
-booking_app = FastAPI(title='Tyky Project')
+booking_app = FastAPI(title='KarvailBK Project')
 booking_app.include_router(users.user_router)
 booking_app.include_router(hotel.hotel_router)
 booking_app.include_router(review.review_router)
