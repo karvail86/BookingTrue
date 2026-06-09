@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from mysite.api import users, hotel, review, city, room_image, room, hotel_image, booking, service, auth
-import uvicorn
+import uvicorn 
 from mysite.admin.setup import setup_admin
 
 booking_app = FastAPI(title='KarvailBK Project')
